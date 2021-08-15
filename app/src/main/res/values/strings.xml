@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Learning Assistant</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Learner Assistant</string>
+    <string name="second_fragment_label">Operation page</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--Home page -->
+    <string name="description">
+        <big><u><b>ABOUT APPLICATION</b></u></big>"\n"
+        <b><big>L</big>earning <big>A</big>ssistant</b> is a lecture-centric mobile app for the Cooperative University Student and Lecturers."\n"
+            It aims to be of great help in the scheduling and arrangement of the lectures so as to improve on the lecture attendance by the
+            students and teaching by lecturers.
+
+            "\n\n"<u><b>ABOUT: </b></u>
+            "\n" The app is a readily available mobile application to help provide lecture schedule information to students and lecturers in an efficient way"\n"
+            The app is motivated by the need to provide a readily available dynamic lecture schedule that changes accordingly with the university releases.
+
+            "\n\n"<u><b>GOAL: </b></u>
+            "\n"To Provide timely information about the lectures.
+            "\n"To provide class customized view of the timetable for the students
+            "\n"To provide lecturer customized view of the timetable
+            "\n"To quickly incorporate timetable changes into the app in realtime"\n"
+
+
+            "\n"<u><b>PURPOSE: </b></u>
+            "\n" 1. To help the stakeholders be aware and in control of their lecture schedules
+            "\n" 2. To improve the lecture attendance and teaching
+            "\n" 3. To improve the general performance of students
+            "\n" 4. Help aid in lecturer organisation and planning
+
+        "\n\n"<u><b>DISCLAIMER: </b></u>
+        "\n" The application is still under active development and should not be used for actual planning
+        "\n" Some information may be misleading or omitted , more clarification pending
+        "\n" more functionality is upcoming as development is still underway
+
+         "\n\n"<u><b>NOTICE: </b></u>
+        "\n" The app is made to be driven and be complemenatry to the university lecture scheduling
+        as provided by the university timetabler whom we will be working with closely in future release versions of the application
+        for better user experience
+    </string>
+
+    <!-- String for the FAB-->
+
+    <string name="About">
+    <head><b><u>Credits</u></b></head>"\n \n"
+    <string-array name="credit">
+        <item>Kipyegon Dennis: Product Owner</item>"\n"
+        <item>Pius Munyua: Subject Matter Expert</item>"\n"
+        <item>Barasa Mathews: Programmer</item>"\n"
+        <item>Jane Gathongo: Software Tester</item>"\n"
+        <item>Kariuki Kelvin: Project Manager</item>"\n"
+        <item>Titus Kimanii: UI/UX Designer</item>"\n"
+    </string-array>
+    "\n"
+    <head><b><u>Resources</u></b></head>"\n\n"
+    <string-array name="resources">
+        <item>Android-Studio: Development</item>"\n"
+        <item>Java: Functionality</item>"\n"
+        <item>XML: layout</item>"\n"
+        <item>SQLite: Stock Database</item>"\n"
+        <item>FireBase: Real-time Database</item>"\n"
+    </string-array>
+    </string>
+    <string name="buttonFirst">PROCEED</string>
+    <string name="fab">fab button</string>
+
+    <!-- Home page briefings-->
+    <string-array name="test">
+        <item>"Intro:\n This app is a database-driven informative mobile application intended for educative and research referencing use by Kenyan farmers. \n"</item>
+        <item>"About:\n The app is designed to be informative about recommended dairy cattle rearing breeds and practices.\n Additionally, breed specific information is provided.\n"</item>
+        <item>"Structure:\n There application is easy to use with familiar navigation and simple controls \n"</item>
+        <item> "Welcome: \n The home page with description of the app , its creation and the developers\n"</item>
+        <item>"Manual: \n Contains help documentation  on how to use the app and its features"</item>
+        <item>"Operation:\n Accessed via the proceed button at the manual page.The operation page for the user interactions with the database via user input \n" </item>
+        <item>"Glossary:\nTo display a searchable and scrollable,summary list view of all the different breeds\n"</item>
+    </string-array>
+
+    <string name="query">Query</string>
+    <string name="coursera">Course :</string>
+    <string name="session"> Session : </string>
+    <string name="course_placeholder">BCS</string>
+    <string name="session_placeholder">3.2</string>
+
+    <string name="query_instruction">
+        <b><u>Query Instructions</u></b>"\n"
+        <i>
+        1. Fill in the data entry slots above appropriately"\n"
+        2. Fill in the data correctly as per the hints provided "\n"
+        3. Press the Query button to submit your query "\n"
+        4. Check the display below for the output of your query "\n"
+        </i>
+    </string>
+    <string name="button_full">Complete_timetable</string>
+    <string name="lecturer_name">Lecturer_Name</string>
+    <string name="lecturer">Lecturer :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "975200946254",
+    "project_id": "learning-assistant-c4f0c",
+    "storage_bucket": "learning-assistant-c4f0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975200946254:android:a4c8cf5bfcf46819bf9b1f",
+        "android_client_info": {
+          "package_name": "com.learningassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975200946254-k6laek2l24tpmo5i47tn04g7b7ch4n2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learningassistant",
+            "certificate_hash": "8152afacd0e41604cf1f4b08ffff5d83453a7587"
+          }
+        },
+        {
+          "client_id": "975200946254-j46tt1rd1vc39rm6lpmihc0vomtg3tvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9TVs9gvveUHr7igRVTFx--NY9TMPHUbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975200946254-j46tt1rd1vc39rm6lpmihc0vomtg3tvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
