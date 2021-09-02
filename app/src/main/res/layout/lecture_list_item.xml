@@ -48,6 +48,13 @@
             android:textAlignment="viewStart" />
 
         <TextView
+            android:id="@+id/lecturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textIsSelectable="true" />
+
+        <TextView
             android:id="@+id/day"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

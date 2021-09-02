@@ -1,6 +1,39 @@
 <resources>
     <string name="app_name">Learning Assistant</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="crediting">Credits</string>
+    <string name="credits">
+    <head><b><u>Credits</u></b></head>"\n \n"
+    <string-array name="credit">
+        <item>Kipyegon Dennis: Product Owner</item>"\n"
+        <item>Pius Munyua: Subject Matter Expert</item>"\n"
+        <item>Barasa Mathews: Programmer</item>"\n"
+        <item>Jane Gathongo: Software Tester</item>"\n"
+        <item>Kariuki Kelvin: Project Manager</item>"\n"
+        <item>Titus Kimanii: UI/UX Designer</item>"\n"
+    </string-array>
+    </string>
+
+    <string name="about">About App</string>
+    <string name="About">
+        "\t"<u><b>ABOUT: </b></u>
+        "\n" Learning Assistant is a readily available mobile application to help provide lecture schedule information to students and to lecturers in an efficient way to manage their weekly classes
+    "\n"<b><u>Resources</u></b>
+        "\n" The following are the resources used in the development of the application
+    "\n"
+        <string-array name="resources">
+        <item>Android-Studio: Development</item>"\n"
+        <item>Java: Functionality</item>"\n"
+        <item>XML: layout</item>"\n"
+        <item>FireBase: Real-time Database</item>"\n"
+    </string-array>
+    </string>
+    <string name="Feedback">Feedback</string>
+    <string name="feedback">
+        For feedback please get in touch with:-
+        "\n"Programmer: <a href="mailto:mathewdrucker@gmail.com"><i>mathewdrucker@gmail.com</i></a>
+        "\n"Product Owner:<a href="mailto:dennohyego1@gmail.com"> <i>dennohyego1@gmail.com</i></a>
+    </string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Learner Assistant</string>
     <string name="second_fragment_label">Operation page</string>
@@ -15,17 +48,14 @@
         <b><big>L</big>earning <big>A</big>ssistant</b> is a lecture-centric mobile app for the Cooperative University Student and Lecturers."\n"
             It aims to be of great help in the scheduling and arrangement of the lectures so as to improve on the lecture attendance by the
             students and teaching by lecturers.
+            "\n\n"<u><b>WHY?</b></u>
+            "\n"The app is motivated by the need to provide a readily available dynamic lecture schedule that changes accordingly with the university timetable releases.
 
-            "\n\n"<u><b>ABOUT: </b></u>
-            "\n" The app is a readily available mobile application to help provide lecture schedule information to students and lecturers in an efficient way"\n"
-            The app is motivated by the need to provide a readily available dynamic lecture schedule that changes accordingly with the university releases.
-
-            "\n\n"<u><b>GOAL: </b></u>
+           "\n\n"<u><b>GOAL: </b></u>
             "\n"To Provide timely information about the lectures.
             "\n"To provide class customized view of the timetable for the students
             "\n"To provide lecturer customized view of the timetable
             "\n"To quickly incorporate timetable changes into the app in realtime"\n"
-
 
             "\n"<u><b>PURPOSE: </b></u>
             "\n" 1. To help the stakeholders be aware and in control of their lecture schedules
@@ -46,39 +76,10 @@
 
     <!-- String for the FAB-->
 
-    <string name="About">
-    <head><b><u>Credits</u></b></head>"\n \n"
-    <string-array name="credit">
-        <item>Kipyegon Dennis: Product Owner</item>"\n"
-        <item>Pius Munyua: Subject Matter Expert</item>"\n"
-        <item>Barasa Mathews: Programmer</item>"\n"
-        <item>Jane Gathongo: Software Tester</item>"\n"
-        <item>Kariuki Kelvin: Project Manager</item>"\n"
-        <item>Titus Kimanii: UI/UX Designer</item>"\n"
-    </string-array>
-    "\n"
-    <head><b><u>Resources</u></b></head>"\n\n"
-    <string-array name="resources">
-        <item>Android-Studio: Development</item>"\n"
-        <item>Java: Functionality</item>"\n"
-        <item>XML: layout</item>"\n"
-        <item>SQLite: Stock Database</item>"\n"
-        <item>FireBase: Real-time Database</item>"\n"
-    </string-array>
-    </string>
+
     <string name="buttonFirst">PROCEED</string>
     <string name="fab">fab button</string>
 
-    <!-- Home page briefings-->
-    <string-array name="test">
-        <item>"Intro:\n This app is a database-driven informative mobile application intended for educative and research referencing use by Kenyan farmers. \n"</item>
-        <item>"About:\n The app is designed to be informative about recommended dairy cattle rearing breeds and practices.\n Additionally, breed specific information is provided.\n"</item>
-        <item>"Structure:\n There application is easy to use with familiar navigation and simple controls \n"</item>
-        <item> "Welcome: \n The home page with description of the app , its creation and the developers\n"</item>
-        <item>"Manual: \n Contains help documentation  on how to use the app and its features"</item>
-        <item>"Operation:\n Accessed via the proceed button at the manual page.The operation page for the user interactions with the database via user input \n" </item>
-        <item>"Glossary:\nTo display a searchable and scrollable,summary list view of all the different breeds\n"</item>
-    </string-array>
 
     <string name="query">Query</string>
     <string name="coursera">Course :</string>
@@ -100,4 +101,6 @@
     <string name="lecturer">Lecturer :</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">university_logo</string>
+
 </resources>
